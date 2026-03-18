@@ -29,7 +29,7 @@ def make_reservation(id,user,num):
             r['num'] = num
             r['status'] = False
             reservationList.append(r)
-    print(f"\n[성공] {user}님, {id}호 예약이 완료되었습니다")
+    print(f"\n[성공] {user}님, {id}호 예약이 완료되었습니다\n")
 
 #예약 내역 출력
 def show_reservation():
